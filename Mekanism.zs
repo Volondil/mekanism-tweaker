@@ -19,6 +19,23 @@ if loadedMods.isModLoaded("jeitweaker") {
 println('>  adding metallurgic_infuser recipes');
 # Adding new recipes for metallurgic_infuser
 
+/* The syntax of the Data to provide is :
+{
+"ingredient": {
+      "amount": 3,                  // "amount"  is optional only needed for multiple inputs
+      "tag": "forge:ingots/copper"  // "tag" or "item" for compatible or specific items
+    }
+  },
+  "infusionInput": {
+    "amount": 10,
+    "tag": "mekanism:tin"           // "tag" or "item" for compatible or specific items
+  },
+  "output": {
+    "item": "mekanism:ingot_bronze",// "tag" or "item" for compatible or specific items
+    "count": 4                      // "count" is optional only needed for multiple output
+  }
+}
+*/
 // New infusing recipes
 <recipetype:mekanism:metallurgic_infusing>.addJSONRecipe('alloy_atomic', {"itemInput": {"ingredient": {"tag": "mekanism:alloys/reinforced"}}, "infusionInput": {"amount": 10, "tag": "mekanism:refined_obsidian"}, "output": {"item": "mekanism:alloy_atomic"}});
 <recipetype:mekanism:metallurgic_infusing>.addJSONRecipe('alloy_reinforced', {"itemInput": {"ingredient": {"tag": "mekanism:alloys/infused"}}, "infusionInput": {"amount": 10, "tag": "mekanism:diamond"}, "output": {"item": "mekanism:alloy_reinforced"}});
