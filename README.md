@@ -10,6 +10,7 @@ This script is a Craft Tweaker script that change recipes for:
 It reduce coast of them like 1.12.x recipe
 
 This script is compatible with JEI Tweaker
+
 Recipes:
 
 - atomic alloy x1 = refined obsidian x 1, reinforced alloy x 1
