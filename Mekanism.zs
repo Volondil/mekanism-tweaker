@@ -40,3 +40,5 @@ println('>  adding metallurgic_infuser recipes');
 <recipetype:mekanism:metallurgic_infusing>.addJSONRecipe('alloy_atomic', {"itemInput": {"ingredient": {"tag": "mekanism:alloys/reinforced"}}, "infusionInput": {"amount": 10, "tag": "mekanism:refined_obsidian"}, "output": {"item": "mekanism:alloy_atomic"}});
 <recipetype:mekanism:metallurgic_infusing>.addJSONRecipe('alloy_reinforced', {"itemInput": {"ingredient": {"tag": "mekanism:alloys/infused"}}, "infusionInput": {"amount": 10, "tag": "mekanism:diamond"}, "output": {"item": "mekanism:alloy_reinforced"}});
 <recipetype:mekanism:metallurgic_infusing>.addJSONRecipe('basic_control_circuit', {"itemInput": {"ingredient": {"tag": "forge:ingots/osmium"}}, "infusionInput": {"amount": 10, "tag": "mekanism:redstone"}, "output": {"item": "mekanism:basic_control_circuit"}});
+
+println("Custom Mekanism's recipe loaded !");
