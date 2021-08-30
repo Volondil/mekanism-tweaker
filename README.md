@@ -17,4 +17,3 @@ Recipes:
 - reinforced alloy x 1 = diamond dust x 1, infused alloy x 1
 - basic control circuit x 1 = redstone dust x1, osmium ingot x 1
 
-Curse Project : https://www.curseforge.com/minecraft/customization/mekanism-tweaker
